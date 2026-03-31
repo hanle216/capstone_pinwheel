@@ -1,9 +1,10 @@
 .square {
-  width: 25px;
-  height: 25px;
-  border: 2px solid white;
+  width: 30px;
+  height: 30px;
+  background-color: beige;
+  border-radius: 6px;
+  cursor: pointer;
   transition: all 0.2s;
-  opacity: 0.3;
 }
 
 .square:hover {
@@ -19,7 +20,7 @@
   opacity: 0.3;
 }
 .bg-header {
-  background-color: hotpink;
+  background-color: rgb(218, 202, 173);
 }
 .social-icons a {
   width: 40px;
