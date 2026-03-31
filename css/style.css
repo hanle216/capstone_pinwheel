@@ -313,3 +313,50 @@
 body {
   background: rgb(247, 244, 239);
 }
+/* thu nhỏ carousel + căn giữa */
+.testimonial-carousel {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* image nhỏ lại */
+.testimonial-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: auto;
+}
+
+/* caption spacing */
+.carousel-caption {
+  position: static;
+  margin-top: 20px;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: pink;
+}
+.carousel-indicators .active {
+  background-color: hotpink;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff4da6' viewBox='0 0 16 16'%3e%3cpath d='M11 1 3 8l8 7'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff4da6' viewBox='0 0 16 16'%3e%3cpath d='M5 1l8 7-8 7'/%3e%3c/svg%3e");
+}
+.carousel-wrapper {
+  max-width: 650px;
+  margin: auto;
+  border: 2px solid pink;
+  border-radius: 15px;
+  padding: 40px 20px;
+  background: white;
+  transition: all 0.2s;
+}
+.carousel-wrapper:hover {
+  cursor: pointer;
+  border: 3px solid hotpink;
+  transition: all 0.2s;
+}
