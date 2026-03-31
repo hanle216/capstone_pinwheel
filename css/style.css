@@ -1,0 +1,315 @@
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  background: #e6d7c8;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.pages-links li {
+  margin-bottom: 10px;
+}
+
+.pages-links a {
+  text-decoration: none;
+  color: #6c757d;
+  transition: 0.3s;
+}
+
+.pages-links a:hover {
+  color: #f28c18;
+}
+
+.icon-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #c0bfbf;
+}
+
+.footer-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-links a:hover {
+  color: #f28c18;
+}
+.social-box div {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(219, 219, 209);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.social-box div:hover {
+  background-color: rgb(118, 196, 118);
+  transition: all 0.2s;
+}
+.contact-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background-color: orange;
+  position: relative;
+  top: -20px;
+  cursor: pointer;
+}
+.card-education {
+  margin-top: 30px;
+}
+.card-education .row .card-body .education-box div {
+  width: 30px;
+  height: 30px;
+  background-color: beige;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.card-education .row .card-body .education-box div:hover {
+  background-color: rgb(236, 100, 123);
+  transition: all 0.2s;
+}
+.card-education .row .card-info {
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 15px;
+  transition: all 0.2s;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+.card-education .row .card-info:hover {
+  border-color: green;
+  border-radius: 50px 10px 50px 10px;
+  transition: all 0.2s;
+}
+.edu-img {
+  padding: 30px;
+}
+.edu-img img {
+  width: 100%;
+  height: 300px;
+  border-radius: 50px 10px;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+.edu-img img:hover {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px 50px;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+.card-news .row .title-news {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+.card-news .row .title-news:hover {
+  color: rgb(87, 171, 173);
+  font-weight: bold;
+  transition: all 0.2s;
+}
+.card-news .card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+.card-news .card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.card-news .card-body .btn-read {
+  margin-left: -10px;
+  color: black;
+  transition: all 0.2s;
+}
+.card-news .card-body .btn-read:hover {
+  color: rgb(87, 171, 173);
+  transition: all 0.2s;
+}
+.news-img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+.small-title {
+  margin-bottom: 10px;
+}
+.main-title {
+  margin-bottom: 30px;
+}
+.email-box {
+  display: flex;
+  background: white;
+  border: 1px solid black;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 500px;
+  padding: 6px; /* tạo khoảng cách với viền */
+}
+
+.email-box input {
+  border: none;
+  flex: 1;
+  padding: 18px;
+  outline: none;
+}
+
+.email-box button {
+  background: orange;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+
+  /* gradient hover animation */
+  background: linear-gradient(to left, orange 50%, rgb(87, 171, 173) 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  transition: background-position 0.4s ease;
+}
+.email-box button:hover {
+  background-position: left;
+}
+.connect {
+  position: relative;
+  padding: 100px 0;
+  background-image: url("../images/bg-bush.jpg");
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  background-size: cover;
+}
+.connect-img {
+  position: relative;
+  width: 400px;
+  z-index: 2;
+  margin-left: 80px;
+}
+.faq-section {
+  background: rgb(247, 244, 239);
+}
+.faq-btn {
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.faq-item {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.faq-item.active .faq-btn {
+  background-color: rgb(87, 171, 173);
+}
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+.faq-answer {
+  margin-top: 15px;
+  color: #666;
+  line-height: 1.6;
+  display: none;
+}
+.faq-item.active .faq-answer {
+  display: block;
+}
+.age-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.age-box1,
+.age-box2,
+.age-box3,
+.age-box4,
+.age-box5 {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.age-box1 {
+  width: 180px;
+  height: 180px;
+  background-color: rgb(41, 96, 99);
+  transform: translateY(50px);
+}
+.age-box2 {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  transform: translateY(50px);
+}
+.age-box3 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(111, 173, 175);
+}
+.age-box4 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(238, 142, 195);
+}
+.age-box5 {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+}
+.age-box2 {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+}
+.text-box {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+.btn-learn {
+  background: rgb(238, 142, 195);
+  color: white;
+  border: 2px solid rgb(104, 41, 76);
+  border-radius: 30px;
+  padding: 15px 20px;
+  transition: all 0.2s;
+}
+.btn-learn:hover {
+  background: transparent;
+  border: 2px solid rgb(104, 41, 76);
+  color: rgb(238, 142, 195);
+  transition: all 0.2s;
+}
+.age-section .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.age-section {
+  background: rgb(247, 244, 239);
+  /* background-image: url("/images/bg-hd.jpg");
+  background-repeat: repeat;
+  background-position: bottom center;
+  background-size: cover; */
+}
+body {
+  background: rgb(247, 244, 239);
+}
