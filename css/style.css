@@ -1,3 +1,26 @@
+.square {
+  width: 25px;
+  height: 25px;
+  border: 2px solid white;
+  transition: all 0.2s;
+  opacity: 0.3;
+}
+
+.square:hover {
+  background-color: orange;
+  transition: all 0.2s;
+}
+
+.a {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(13, 196, 237);
+  transition: all 0.3s;
+  opacity: 0.3;
+}
+.bg-header {
+  background-color: hotpink;
+}
 .social-icons a {
   width: 40px;
   height: 40px;
